@@ -42,14 +42,14 @@ src/
 
 ## 🌐 Live Demo
 
-👉 [View Live Project](https://your-vercel-link.vercel.app)
+👉 https://buyer-foresight-assignment-beta.vercel.app/
 
 ---
 
 ## ⚙️ Installation & Setup
 
 ```bash
-git clone https://github.com/yourusername/user-directory-dashboard.git
+git clone [https://github.com/yourusername/user-directory-dashboard.git](https://github.com/9949512061693/BuyerForesight-Assignment)
 cd user-directory-dashboard
 npm install
 npm run dev
