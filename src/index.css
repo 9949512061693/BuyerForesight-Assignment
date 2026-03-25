@@ -1,0 +1,13 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F1F5F9;
+}
+
+/* Remove default root styling */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

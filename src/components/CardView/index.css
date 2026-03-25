@@ -1,0 +1,93 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #ffffff;
+    padding: 15px 35px;
+    margin-bottom: 12px;
+
+    border-radius: 10px;
+    cursor: pointer;
+    width: 80%;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: all 0.2s ease;
+}
+
+@media screen and (max-width :768px) {
+    .card-container {
+        width: 100%;
+    }
+
+}
+
+.card-container:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.card-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.profile-img {
+    width: 55px;
+    height: 55px;
+}
+
+.user-name {
+    margin: 0;
+    font-size: 22px;
+    color: #0f172a;
+    font-weight: 600;
+}
+
+.user-email {
+    margin: 0;
+    font-size: 15px;
+    color: #64748b;
+    font-weight: 400;
+}
+
+.card-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.user-phone {
+    margin: 0;
+    font-size: 16px;
+    color: #0c0f12;
+    font-weight: 400;
+}
+
+
+.user-company {
+    margin: 0;
+    font-size: 15px;
+    color: #101316;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .user-phone {
+        color: #323845;
+    }
+    .user-company {
+        color: #2a323a;
+    }
+    .card-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .card-right {
+        align-items: flex-start;
+    }
+}
